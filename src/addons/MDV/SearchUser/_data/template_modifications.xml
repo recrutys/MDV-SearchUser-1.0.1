@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="public" template="message_page" modification_key="mdv_su_message_page_add_template" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<div class="blockMessage">{$message}</div>]]></find>
+    <replace><![CDATA[$0
+
+<xf:include template="mdv_su_found_users" />]]></replace>
+  </modification>
+  <modification type="public" template="search_results" modification_key="mdv_su_search_results_add_template" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:css src="search_results.less" />]]></find>
+    <replace><![CDATA[$0
+
+<xf:include template="mdv_su_found_users" />]]></replace>
+  </modification>
+</template_modifications>

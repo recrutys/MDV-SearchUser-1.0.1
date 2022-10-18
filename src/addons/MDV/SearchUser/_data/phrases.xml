@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="option.mdv_searchUser_limit" version_id="1000070" version_string="1.0.0"><![CDATA[Limit]]></phrase>
+  <phrase title="option_explain.mdv_searchUser_limit" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_group.mdv_su_settings" version_id="1000070" version_string="1.0.0"><![CDATA[[MDV] Search User]]></phrase>
+  <phrase title="option_group_description.mdv_su_settings" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+</phrases>

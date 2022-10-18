@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="public" title="mdv_su_found_users" version_id="1000070" version_string="1.0.0"><![CDATA[<xf:if is="$foundUsers is not empty">
+	<xf:sidebar>
+		<div class="block">
+			<div class="block-container">
+				<h3 class="block-minorHeader">
+					{{ phrase('users') }}
+				</h3>
+				<ul class="block-body">
+					<xf:foreach loop="$foundUsers" value="$user">
+						<li class="block-row">
+							<div class="contentRow">
+								<div class="contentRow-figure">
+									<xf:avatar user="$user" size="xs" />
+								</div>
+								<div class="contentRow-main contentRow-main--close">
+									<xf:username user="$user" rich="true" />
+									<div class="contentRow-minor">
+										<xf:usertitle user="$user" />
+									</div>
+								</div>
+							</div>
+						</li>
+					</xf:foreach>
+				</ul>
+			</div>
+		</div>
+	</xf:sidebar>
+</xf:if>]]></template>
+</templates>

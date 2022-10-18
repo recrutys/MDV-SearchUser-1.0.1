@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+  <option option_id="mdv_searchUser_limit" edit_format="spinbox" data_type="integer" advanced="0">
+    <default_value>10</default_value>
+    <relation group_id="mdv_su_settings" display_order="1"/>
+  </option>
+</options>
